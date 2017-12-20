@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501079257164",
+    "firebase_url": "https://theshoppingequalizer.firebaseio.com",
+    "project_id": "theshoppingequalizer",
+    "storage_bucket": "theshoppingequalizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501079257164:android:e4406f991d7f535f",
+        "android_client_info": {
+          "package_name": "hudiilfeld.theshoppingequalizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501079257164-iikuda28val8lcjk9f7bcg5be2ppds33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hudiilfeld.theshoppingequalizer",
+            "certificate_hash": "9ba5f4915e8f56bb93a4a0cd0ee37ae19b703849"
+          }
+        },
+        {
+          "client_id": "501079257164-4k8j9c1ag9mn5u000ocgp1qlb2i3avi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA90rlNGwmREyCEf3vcb5KJVutY4GvCNLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501079257164-4k8j9c1ag9mn5u000ocgp1qlb2i3avi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

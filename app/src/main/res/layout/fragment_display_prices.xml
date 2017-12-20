@@ -1,0 +1,187 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="hudiilfeld.theshoppingequalizer.DisplayPricesFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="מחיר הסל ברשתות המתחרות"
+        android:textColor="@color/snow_white"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/ramiLeviLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/tvMain"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/tvRamiLevi"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/snow_white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/display_price_margin"/>
+
+        <Button
+            android:id="@+id/warningRamiLevi"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/fa_warning"
+            android:textSize="20dp"
+            android:textColor="@color/snow_white"
+            android:background="@drawable/shape_go_back"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shuferSalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/ramiLeviLayout"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvShuferSal"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/snow_white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/display_price_margin"
+            />
+
+        <Button
+            android:id="@+id/warningShuferSal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/fa_warning"
+            android:textSize="20dp"
+            android:textColor="@color/snow_white"
+            android:background="@drawable/shape_go_back"/>
+
+        <ProgressBar
+            android:id="@+id/pricesProgressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminateDrawable="@drawable/progress"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/MegaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/shuferSalLayout"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvMega"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/snow_white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/display_price_margin"/>
+
+        <Button
+            android:id="@+id/warningMega"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/fa_warning"
+            android:textSize="20dp"
+            android:textColor="@color/snow_white"
+            android:background="@drawable/shape_go_back"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/viktoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/MegaLayout"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvViktory"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/snow_white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/display_price_margin"/>
+
+        <Button
+            android:id="@+id/warningViktory"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/fa_warning"
+            android:textSize="20dp"
+            android:textColor="@color/snow_white"
+            android:background="@drawable/shape_go_back"/>ootstrapBrand="danger"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/yenotBitanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/viktoryLayout"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvYenotBitan"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/snow_white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/display_price_margin"/>
+
+        <Button
+            android:id="@+id/warningYenotBitan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/fa_warning"
+            android:textSize="20dp"
+            android:textColor="@color/snow_white"
+            android:background="@drawable/shape_go_back"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    app:cardCornerRadius="10dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="71dp">
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_horizontal"
+            android:text="שוקולד נוטלה"
+            android:textSize="14sp"
+            android:textColor="@color/snow_white"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toRightOf="@+id/imgProduct"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imgProduct" />
+
+        <TextView
+            android:id="@+id/manufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="יצרן"
+            android:textColor="@color/snow_white"
+            app:layout_constraintLeft_toRightOf="@+id/imgProduct"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productName" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="מחיר"
+            android:textColor="@color/snow_white"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toRightOf="@+id/imgProduct"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/manufacturer" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/btnRemove"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/shape_btn"
+                android:text="&#xf218;"
+                android:textColor="@color/snow_white"
+                android:textSize="25dp"/>
+
+            <Button
+                android:id="@+id/btnAddToBasket"
+                android:layout_width="90dp"
+                android:layout_height="27dp"
+                android:background="@drawable/shape_add_to_basket"
+                android:text="&#xf291;" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/shape_btn"
+                android:text="&#xf217;"
+                android:textColor="@color/snow_white"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgProduct"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#000"
+            app:civ_border_width="0.4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

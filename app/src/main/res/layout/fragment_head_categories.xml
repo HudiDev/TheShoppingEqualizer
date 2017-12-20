@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootElement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="@dimen/border"
+            android:layout_marginRight="@dimen/border"
+            android:layout_marginTop="@dimen/border"
+            android:background="#332f2f"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/shopLogo"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/rami_levi_icon"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0.2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/border"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/breads"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/border"
+                    android:layout_weight="1"
+                    android:background="@drawable/breadss"
+                    android:text="לחמים"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/vegetables"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/fruits"
+                    android:text="פירות וירקות"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:alpha="0.8"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/healthy"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="@dimen/border"
+                android:layout_marginTop="@dimen/border"
+                android:adjustViewBounds="true"
+                android:background="@drawable/organic_diett"
+                android:text="אורגני ובריאות"
+
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/meats"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/border"
+                    android:layout_weight="1"
+                    android:background="@drawable/meatss"
+                    android:text="בשרים ועופות"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/eggs"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/eggs"
+                    android:text="חלב, תחליפי חלב וגבינות"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="@dimen/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/border"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/frozens"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/border"
+                    android:layout_weight="1"
+                    android:background="@drawable/frozenss"
+                    android:text="קפואים"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pickles"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/border"
+                    android:layout_weight="2"
+                    android:background="@drawable/picklless"
+                    android:text="שימורים, בישול ואפייה"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/cereals"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/border"
+                    android:layout_weight="2"
+                    android:background="@drawable/cereal"
+                    android:gravity="center"
+                    android:text="דגנים וקטניות"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/sweets"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/border"
+                    android:layout_weight="1"
+                    android:background="@drawable/sweetss"
+                    android:text="מתוקים"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="@dimen/border"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cosmetics"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/border"
+                    android:layout_weight="1"
+                    android:background="@drawable/kosmeticss"
+                    android:text="טיפוח ותינוקות"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/disposable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/desposablee"
+                    android:text="חד פעמי ומתכלה"
+                    android:textColor="#000"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/clothing"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="@dimen/border"
+                android:adjustViewBounds="true"
+                android:background="@drawable/clothingg"
+                android:text="ביגוד"
+                android:textSize="@dimen/text_size"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="@dimen/border"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/maintenance"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/border"
+                    android:layout_weight="1"
+                    android:background="@drawable/maintenancee"
+                    android:text="אחזקת הבית ובעלי חיים"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/drinks"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drinkss"
+                    android:text="משקאות"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

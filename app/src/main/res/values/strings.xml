@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cheap It</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="fa_phone">&#xf095;</string>
+
+    <string name="fa_warning">&#xf12a;</string>
+
+
+    <string name="facebook_app_id">295013554336177</string>
+
+    <string name="web_client_id">501079257164-4k8j9c1ag9mn5u000ocgp1qlb2i3avi7.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,42 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hudiilfeld.theshoppingequalizer.appintrolib.PageFragment"
+    android:background="@drawable/matthew_smith_5935"
+    android:id="@+id/fragId">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="26dp"
+        android:text="בחר חנות"
+        android:textColor="@color/snow_white"
+
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/msg"
+        app:layout_constraintRight_toRightOf="parent" android:layout_marginEnd="26dp" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="בחר לך אחד מרשתות המ."
+        android:textColor="@color/snow_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

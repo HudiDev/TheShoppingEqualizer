@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="רשתות המזון המובילות">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/ramiLevi"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="רמי לוי" />
+                <item
+                    android:id="@+id/shuferSal"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="שופרסל" />
+                <item
+                    android:id="@+id/mega"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="מגה" />
+                <item
+                    android:id="@+id/viktory"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="ויקטורי" />
+                <item
+                    android:id="@+id/yenotBitan"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="יינות ביתן" />
+            </group>
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="החשבון האישי">
+        <menu>
+            <item
+                android:id="@+id/myBasket"
+                android:icon="@drawable/ic_shopping_basket_black_24dp"
+                android:title="הסל שלי" />
+            <item
+                android:id="@+id/compare"
+                android:icon="@drawable/ic_equalizer_black_24dp"
+                android:title="בצע השוואת מחירים" />
+        </menu>
+    </item>
+
+
+</menu>
