@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="hudiilfeld.theshoppingequalizer.appintrolib.PageFragment"
-    android:background="@drawable/matthew_smith_5935"
+    android:background="@drawable/gradient"
     android:id="@+id/fragId">
 
     <!-- TODO: Update blank fragment layout -->
