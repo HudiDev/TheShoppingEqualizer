@@ -365,13 +365,13 @@ public class YenotBitanUrlDataSource {
 
         //ביגוד12
         foodSubTitles.add(new SubCategoryNameAndInfo("בגדי נשים", 108,
-                "אין כלי בית"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
         foodSubTitles.add(new SubCategoryNameAndInfo("בגדי גברים", 109,
-                "אין כלי בית"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
         foodSubTitles.add(new SubCategoryNameAndInfo("טקסטיל ואביזרים", 110,
-                "אין כלי בית"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
 
         //אחזקת הבית13

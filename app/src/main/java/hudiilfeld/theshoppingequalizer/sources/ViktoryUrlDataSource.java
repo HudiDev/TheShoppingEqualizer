@@ -95,7 +95,7 @@ public class ViktoryUrlDataSource {
         ));
 
         foodSubTitles.add(new SubCategoryNameAndInfo("סלטים", 24,
-                "אין סלטים וחמוצים בויקטורי"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
 
         //אורגי5
@@ -366,13 +366,13 @@ public class ViktoryUrlDataSource {
 
         //ביגוד12
         foodSubTitles.add(new SubCategoryNameAndInfo("בגדי נשים", 108,
-                "אין ביגוד"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
         foodSubTitles.add(new SubCategoryNameAndInfo("בגדי גברים", 109,
-                "אין ביגוד"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
         foodSubTitles.add(new SubCategoryNameAndInfo("טקסטיל ואביזרים", 110,
-                "אין ביגוד"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
                 ));
 
         //אחזקת הבית13

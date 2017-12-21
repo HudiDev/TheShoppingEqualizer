@@ -340,7 +340,7 @@ public class ShuferSalUrlDataSource {
                 "http://www.mysupermarket.co.il/%D7%A9%D7%95%D7%A4%D7%A8%D7%A1%D7%9C/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%A1%D7%A4%D7%99%D7%92%D7%94_%D7%9C%D7%9E%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D/%D7%9E%D7%93%D7%A3"
         ));
         foodSubTitles.add(new SubCategoryNameAndInfo("אמצעי מניעה", 100,
-                "אין אמצעי מניעה בשופרסל"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
         ));
         foodSubTitles.add(new SubCategoryNameAndInfo("חיתולים", 101,
                 "http://www.mysupermarket.co.il/%D7%A9%D7%95%D7%A4%D7%A8%D7%A1%D7%9C/%D7%97%D7%99%D7%AA%D7%95%D7%9C%D7%99%D7%9D/%D7%9E%D7%93%D7%A3"
@@ -369,13 +369,13 @@ public class ShuferSalUrlDataSource {
 
         //ביגוד12
         foodSubTitles.add(new SubCategoryNameAndInfo("בגדי נשים", 108,
-                "אין כלי בית"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
         ));
         foodSubTitles.add(new SubCategoryNameAndInfo("בגדי גברים", 109,
-                "אין כלי בית"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
         ));
         foodSubTitles.add(new SubCategoryNameAndInfo("טקסטיל ואביזרים", 110,
-                "אין כלי בית"
+                "http://www.mysupermarket.co.il/רמי_לוי/סלטים_וחמוצים/מדף"
         ));
 
         //אחזקת הבית13
